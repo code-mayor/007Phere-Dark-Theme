@@ -2,15 +2,15 @@ import React from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { 
-  Shield, 
-  FileText, 
-  Search, 
-  Users, 
-  Gavel, 
-  Star, 
-  Heart, 
-  MapPin, 
+import {
+  Shield,
+  FileText,
+  Search,
+  Users,
+  Gavel,
+  Star,
+  Heart,
+  MapPin,
   Phone,
   Lock,
   CheckCircle,
@@ -27,7 +27,7 @@ const MatrimonialIntelligence: React.FC = () => (
           <div className="space-y-4">
             <h2 className="text-4xl text-charcoal">Matrimonial Intelligence</h2>
             <p className="text-lg text-soft-gray leading-relaxed">
-              Comprehensive pre-marriage verification services to ensure transparency and trust. 
+              Comprehensive pre-marriage verification services to ensure transparency and trust.
               Our discreet investigations provide court-admissible documentation.
             </p>
           </div>
@@ -85,28 +85,28 @@ const LoveArbitration: React.FC = () => (
       <div className="text-center mb-16">
         <h2 className="text-4xl text-charcoal mb-4">The Love Arbitration</h2>
         <p className="text-lg text-soft-gray max-w-3xl mx-auto">
-          When love encounters conflict, our unique arbitration process provides a confidential, 
+          When love encounters conflict, our unique arbitration process provides a confidential,
           neutral forum combining legal framework with emotional healing.
         </p>
       </div>
 
       <div className="grid lg:grid-cols-3 gap-8 mb-12">
         {[
-          { 
-            icon: Lock, 
-            title: "Confidential Process", 
+          {
+            icon: Lock,
+            title: "Confidential Process",
             desc: "Private sessions with absolute discretion and NDA protection",
             color: "from-rose-gold to-silver-pink"
           },
-          { 
-            icon: Scale, 
-            title: "Neutral & Legal", 
+          {
+            icon: Scale,
+            title: "Neutral & Legal",
             desc: "Legally trained arbitrators ensure fair and enforceable resolutions",
             color: "from-silver-pink to-muted-lavender"
           },
-          { 
-            icon: Heart, 
-            title: "Emotional Healing", 
+          {
+            icon: Heart,
+            title: "Emotional Healing",
             desc: "Counsellors and therapists support the emotional journey",
             color: "from-muted-lavender to-blush"
           }
@@ -169,7 +169,7 @@ const LitigationSupport: React.FC = () => (
           <div className="space-y-4">
             <h2 className="text-4xl text-charcoal">Litigation Support</h2>
             <p className="text-lg text-soft-gray leading-relaxed">
-              Ethical, silent support for your legal counsel. We never replace your lawyer but strengthen 
+              Ethical, silent support for your legal counsel. We never replace your lawyer but strengthen
               your case with professional evidence collection and documentation.
             </p>
           </div>
@@ -196,7 +196,7 @@ const LitigationSupport: React.FC = () => (
           <div className="bg-blush/50 rounded-lg p-6 border border-rose-gold/30">
             <h4 className="font-semibold text-charcoal mb-2">Ethical Standards</h4>
             <p className="text-sm text-soft-gray">
-              All our litigation support follows strict ethical guidelines, maintaining attorney-client privilege 
+              All our litigation support follows strict ethical guidelines, maintaining attorney-client privilege
               and supporting the legal process with integrity.
             </p>
           </div>
@@ -216,28 +216,28 @@ const AstrologyCompatibility: React.FC = () => (
       <div className="text-center mb-16">
         <h2 className="text-4xl text-charcoal mb-4">Astrology & Compatibility</h2>
         <p className="text-lg text-soft-gray max-w-3xl mx-auto">
-          Traditional astrological guidance combined with modern compatibility analysis. 
+          Traditional astrological guidance combined with modern compatibility analysis.
           Advisory services to complement your decision-making process.
         </p>
       </div>
 
       <div className="grid md:grid-cols-3 gap-8 mb-12">
         {[
-          { 
-            icon: Star, 
-            title: "Natal Chart Creation", 
+          {
+            icon: Star,
+            title: "Natal Chart Creation",
             desc: "Detailed birth chart analysis and planetary positioning",
             features: ["Birth chart mapping", "Planetary influences", "Life path analysis"]
           },
-          { 
-            icon: Heart, 
-            title: "Compatibility Assessment", 
+          {
+            icon: Heart,
+            title: "Compatibility Assessment",
             desc: "Relationship compatibility based on astrological factors",
             features: ["Partner matching", "Emotional compatibility", "Long-term prospects"]
           },
-          { 
-            icon: Shield, 
-            title: "Cultural Insights", 
+          {
+            icon: Shield,
+            title: "Cultural Insights",
             desc: "Traditional guidance respecting family and cultural values",
             features: ["Family harmony", "Cultural alignment", "Traditional remedies"]
           }
@@ -268,7 +268,7 @@ const AstrologyCompatibility: React.FC = () => (
         <div className="max-w-2xl mx-auto">
           <h3 className="text-xl font-semibold text-charcoal mb-4">Important Disclaimer</h3>
           <p className="text-soft-gray mb-6">
-            Our astrological services are advisory only and not a substitute for legal or factual findings. 
+            Our astrological services are advisory only and not a substitute for legal or factual findings.
             We combine traditional wisdom with modern relationship guidance.
           </p>
           <Button className="bg-rose-gold hover:bg-rose-gold/90 text-charcoal">

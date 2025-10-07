@@ -61,7 +61,7 @@ const AboutSection: React.FC = () => {
           </div>
 
           <div className="relative">
-            <img src="../../public/images/about-2.jpg" alt="About Us" className="rounded-3xl shadow-2xl" />
+            <img src={`${import.meta.env.BASE_URL}images/about-2.jpg`} alt="About Us" className="rounded-3xl shadow-2xl" />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-3xl"></div>
           </div>
         </div>
