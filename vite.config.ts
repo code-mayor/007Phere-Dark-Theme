@@ -4,7 +4,7 @@ import svgr from "vite-plugin-svgr";
 import path from 'path';
 
 export default defineConfig({
-  base: '/007Phere-Dark-Theme/',
+  base: '/',
   plugins: [
     react(),
     svgr({

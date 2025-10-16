@@ -24,7 +24,8 @@
     },
     "include": [
         "src",
-        "src/**/*.d.ts"
+        "src/**/*.d.ts",
+        "admin"
     ],
     "exclude": [
         "node_modules",

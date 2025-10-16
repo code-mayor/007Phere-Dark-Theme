@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
               </span>
             </h1>
 
-            <p className="text-xl leading-relaxed max-w-2xl mx-auto text-muted-foreground">
+            <p className="text-xl leading-relaxed max-w-2xl mx-auto text-foreground">
               India's first confidential matrimonial support firm.
               We protect trust, dignity, and truth in love.
             </p>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainNavigation from './components/main-navigation';
 import HeroSection from './components/hero-section';
 import ServicesOverview from './components/services-overview';
@@ -8,7 +9,13 @@ import Footer from './components/footer';
 import { Button } from './components/ui/button';
 import { Phone } from 'lucide-react';
 
-export default function App() {
+// Import admin components
+import AdminLogin from './components/admin/Login';
+import AdminDashboard from './components/admin/AdminDashboard';
+import ProtectedRoute from './components/admin/ProtectedRoute';
+
+// Main Landing Page Component (your existing App logic)
+function LandingPage() {
   const [currentSection, setCurrentSection] = useState('home');
   const [showFloatingButton, setShowFloatingButton] = useState(false);
 
@@ -141,5 +148,33 @@ export default function App() {
         />
       </div>
     </div>
+  );
+}
+
+// Main App Component with Routing
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* Public landing page */}
+        <Route path="/" element={<LandingPage />} />
+
+        {/* Admin login (public) */}
+        <Route path="/admin/login" element={<AdminLogin />} />
+
+        {/* Admin dashboard (protected) */}
+        <Route
+          path="/admin"
+          element={
+            <ProtectedRoute>
+              <AdminDashboard />
+            </ProtectedRoute>
+          }
+        />
+
+        {/* Catch all - redirect to home */}
+        <Route path="*" element={<LandingPage />} />
+      </Routes>
+    </Router>
   );
 }

@@ -1739,6 +1739,10 @@
     }
   }
 
+  .text-dark {
+    color: var(--charcoal);
+  }
+
   .text-primary {
     color: var(--primary);
   }

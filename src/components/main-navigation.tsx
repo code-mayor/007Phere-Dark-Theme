@@ -105,7 +105,7 @@ const MainNavigation: React.FC<NavigationProps> = ({ currentSection, onSectionCh
                     }}
                     className="bg-primary hover:bg-primary/90 text-primary-foreground w-full py-3 rounded-full"
                   >
-                    <Phone className="w-4 h-4 mr-2" strokeWidth={0.5} />
+                    <Phone className="w-4 h-4 mr-2 text-dark" strokeWidth={0.5} />
                     Get started
                   </Button>
                 </div>

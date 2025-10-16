@@ -102,8 +102,8 @@ const Footer: React.FC = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary flex-shrink-0" strokeWidth={0.5} />
                 <div>
-                  <p className="text-sm font-medium text-foreground">Private Offices</p>
-                  <p className="text-sm text-muted-foreground">Mumbai • Delhi • Bangalore</p>
+                  <p className="text-sm font-medium text-foreground">Office</p>
+                  <p className="text-sm text-muted-foreground">Delhi</p>
                 </div>
               </div>
             </div>
